@@ -1,0 +1,147 @@
+ion-content {
+    width: 100%;
+    --background: url(../../assets/bg-group.png) no-repeat top right;
+
+    .padding-top-inner {
+        padding-top: 96px;
+
+        .cnfirm-code{
+            
+                span {
+                    color: var(--ion-color-oriental-color-primary);
+                }
+            
+        }
+
+        .back-arrow-top {
+            width: 44px;
+            height: 44px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 33px;
+            margin: 0px;
+
+        }
+
+        p {
+
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+
+    }
+
+
+    .inputs-field-section {
+        ion-button {
+            --background: var(--ion-color-oriental-color-primary);
+            --border-radius: 99px;
+            width: 100%;
+            height: 50px;
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 0.1px;
+        }
+
+        ion-input {
+            // font-size: 12px;
+            // border-bottom: 1px solid var(--ion-color-gray-text-color-tint);
+            // --padding-top: 0px;
+            // --padding-bottom: 0
+
+            font-size: 12px;
+            border: 1px solid var(--ion-color-gray-text-color-tint);
+           
+            height: 49px;
+            margin: 13px;
+
+            bdi.input-number {
+                text-align: center;
+                position: absolute;
+                left: 26px;
+
+            }
+        }
+
+        ion-item {
+            --border-width: 0px 0 0px 0;
+            --padding-start: 0px;
+            --inner-padding-end: 0px;
+
+            .label-stacked {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: var(--ion-color-medium);
+            }
+
+            ion-icon {
+                width: 18px;
+                height: 18px;
+                padding: 8px;
+                color: var(--color);
+                margin-right: 7px;
+                padding-right: 7px;
+                // border-bottom: 1px solid var(--ion-color-gray-text-color-tint);
+            }
+        }
+
+        .forget-password {
+            color: var(--ion-color-oriental-color-primary);
+        }
+    }
+
+    .or-text {
+        text-align: center;
+        margin: 0px;
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 25px;
+    }
+
+    .social-btn {
+        img {
+            position: absolute;
+            left: 0px;
+            bottom: 13px;
+        }
+
+        p {
+            text-transform: capitalize;
+            color: var(--ion-color-warning-contrast);
+        }
+
+        ion-button {
+            --background: var(--color);
+            --border-radius: 99px;
+            width: 100%;
+            height: 50px;
+            --box-shadow: 0px 2px 16px 2px var(--ion-color-gray-text-color-tint);
+
+        }
+
+    }
+
+    .botm-signin {
+        p {
+            text-align: center;
+            font-size: 14px;
+
+            span {
+                color: var(--ion-color-oriental-color-primary);
+            }
+        }
+    }
+.resend-code {
+    font-weight: 400;
+    color: var(--ion-color-oriental-color-primary);
+    font-size: 14px;
+    text-align: center;
+}
+}

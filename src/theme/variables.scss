@@ -1,6 +1,8 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -74,7 +76,40 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --ion-font-family:'Poppins', sans-serif;
+
+  /**orientalcolor**/
+  --ion-color-oriental-color-primary: #3de2e2;
+	--ion-color-oriental-color-primary-rgb: 61,226,226;
+	--ion-color-oriental-color-primary-contrast: #000000;
+	--ion-color-oriental-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-oriental-color-primary-shade: #36c7c7;
+	--ion-color-oriental-color-primary-tint: #50e5e5;
+
+
+  /**oriental**/
+  --ion-color-oriental: #3de2e2;
+	--ion-color-oriental-rgb: 61,226,226;
+	--ion-color-oriental-contrast: #000000;
+	--ion-color-oriental-contrast-rgb: 0,0,0;
+	--ion-color-oriental-shade: #36c7c7;
+	--ion-color-oriental-tint: #50e5e5;
+
+
+
+
+ /**gray-text-color**/
+--ion-color-gray-text-color: AAAAAA;
+	--ion-color-gray-text-color-rgb: 170,170,170;
+	--ion-color-gray-text-color-contrast: #000000;
+	--ion-color-gray-text-color-contrast-rgb: 0,0,0;
+	--ion-color-gray-text-color-shade: #969696;
+	--ion-color-gray-text-color-tint: #b3b3b3;
+
+
 }
+
 
 @media (prefers-color-scheme: dark) {
   /*
@@ -233,4 +268,32 @@
 
     --ion-card-background: #1e1e1e;
   }
+
+}
+.ion-color-oriental-color-primary {
+  --ion-color-base: var(--ion-color-oriental-color-primary);
+  --ion-color-base-rgb: var(--ion-color-oriental-color-primary-rgb);
+  --ion-color-contrast: var(--ion-color-oriental-color-primary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-oriental-color-primary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-oriental-color-primary-shade);
+  --ion-color-tint: var(--ion-color-oriental-color-primary-tint);
+}
+.ion-color-gray-text-color {
+  --ion-color-base: var(--ion-color-gray-text-color);
+  --ion-color-base-rgb: var(--ion-color-gray-text-color-rgb);
+  --ion-color-contrast: var(--ion-color-gray-text-color-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-gray-text-color-contrast-rgb);
+  --ion-color-shade: var(--ion-color-gray-text-color-shade);
+  --ion-color-tint: var(--ion-color-gray-text-color-tint);
+}
+
+
+
+.ion-color-oriental {
+	--ion-color-base: var(--ion-color-oriental);
+	--ion-color-base-rgb: var(--ion-color-oriental-rgb);
+	--ion-color-contrast: var(--ion-color-oriental-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-oriental-contrast-rgb);
+	--ion-color-shade: var(--ion-color-oriental-shade);
+	--ion-color-tint: var(--ion-color-oriental-tint);
 }
