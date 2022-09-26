@@ -36,9 +36,23 @@
     .swiper-pagination-bullet {
       background: var(--ion-color-medium-shade);
   }
-    
-    
-  
-  }
-
- 
+}
+.search-section {
+.searchbar-search-icon{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: var(--ion-color-oriental);
+  width: 25px;
+  height: 22px;
+  border-radius: 10px;
+  color: var(--ion-color-light);
+  padding: 10px;
+}
+.searchbar-input {
+  border-radius: 10px;
+  height: 42px;
+  --background: var(--ion-color-light-shade);
+  box-shadow: none;
+}
+}
