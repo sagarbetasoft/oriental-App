@@ -25,6 +25,10 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+.swiper-pagination-bullet {
+  // background: var(--ion-color-medium-shade);
+  --bullet-background: var(--ion-color-medium-shade);
+  }
 
 
 .swiper-pagination-bullet-active {
@@ -33,14 +37,14 @@
     height: 10px;
     border-radius: 50px;
 
-    .swiper-pagination-bullet {
-      background: var(--ion-color-medium-shade);
-  }
+ 
 }
+
 .search-section {
 .searchbar-search-icon{
   position: absolute;
-  left: 0px;
+  right: 0px !important;
+  left: auto !important;
   top: 0px;
   background: var(--ion-color-oriental);
   width: 25px;
@@ -54,5 +58,10 @@
   height: 42px;
   --background: var(--ion-color-light-shade);
   box-shadow: none;
+}
+.searchbar-clear-button{
+  right: auto;
+  left: 5px;
+  top: 0;
 }
 }

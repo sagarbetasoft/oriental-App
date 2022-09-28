@@ -1,8 +1,11 @@
 <ion-content [fullscreen]="true"  class="ion-padding">
+  <ion-col size="12">
+    <ion-icon   class="back-arrow-top" name="arrow-back-circle"> </ion-icon>
+  </ion-col>
   <ion-row class="padding-top-inner">
-    <ion-col size="12">
-      <ion-icon   color="oriental" class="back-arrow-top" name="arrow-back-circle"> </ion-icon>
-    </ion-col>
+    <!-- <ion-col size="12">
+      <ion-icon   color="medium" class="back-arrow-top" name="arrow-back-circle"> </ion-icon>
+    </ion-col> -->
     <ion-col size="12">
       <h2>Sign in</h2>
       <p>Welcome back</p>
@@ -13,7 +16,7 @@
     <ion-col size="12">
       <ion-item>
         <ion-icon name="mail-outline"></ion-icon>
-        <ion-input type="text" placeholder="EmaiL Address "></ion-input>
+        <ion-input type="text" placeholder="Email Address "></ion-input>
       </ion-item>
     </ion-col>
     <ion-col size="12">
@@ -24,15 +27,16 @@
       </ion-item>
     </ion-col>
   </ion-row>
-  <ion-row>
-    <ion-col size="12">
-      <p class="forget-password">Forgot Password?</p>
-    </ion-col>
-  </ion-row>
+
 
   <ion-row>
     <ion-col size="12">
       <ion-button expand="block"> Sign in</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <p class="forget-password">Forgot Password?</p>
     </ion-col>
   </ion-row>
 
@@ -40,7 +44,9 @@
 
 <ion-row>
   <ion-col size="12">
+    <span class="bodr-left"></span>
  <p class="or-text">OR</p>
+ <span class="bodr-right"></span>
   </ion-col>
 </ion-row>
 <div class="social-btn">
@@ -58,7 +64,7 @@
 <div class="botm-signin">
 <ion-row>
   <ion-col size="12">
-    <p>New member? <span>Sign up</span> </p>
+    <p>New Member ? <span>Sign up</span> </p>
  </ion-col>
 </ion-row>
 </div>

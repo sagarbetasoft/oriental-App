@@ -1,13 +1,16 @@
 <ion-content [fullscreen]="true"  class="ion-padding">
-      <ion-row class="padding-top-inner">
-        <ion-col size="12">
-          <ion-icon   color="oriental" class="back-arrow-top" name="arrow-back-circle"> </ion-icon>
-        </ion-col>
+  <div class="bgtop"></div>
+  <ion-col size="12">
+    <ion-icon    class="back-arrow-top" name="arrow-back-circle"> </ion-icon>
+  </ion-col>
+  <div class="padding-top-inner">
+      <ion-row >
         <ion-col size="12">
           <h2>Sign up</h2>
           <p>Create an account here</p>
         </ion-col>
       </ion-row>
+      </div>
     <div class="inputs-field-section">
       <ion-row>
         <ion-col size="12">
@@ -25,7 +28,7 @@
         <ion-col size="12">
           <ion-item>
             <ion-icon name="mail-outline"></ion-icon>
-            <ion-input type="text" placeholder="EmaiL Address "></ion-input>
+            <ion-input type="text" placeholder="Email Address "></ion-input>
           </ion-item>
         </ion-col>
         <ion-col size="12">
@@ -38,7 +41,13 @@
       </ion-row>
       <ion-row>
         <ion-col size="12">
-          <p class="terms-of-use-text">By signing up you agree with our Terms of Use</p>
+          <div class="terms-of-use-text">
+          <ion-item>
+            <ion-checkbox slot="start"></ion-checkbox>
+           <p>By signing up you agree with our Terms of Use</p>
+          </ion-item>
+        </div>
+          <!-- <p class="terms-of-use-text">By signing up you agree with our Terms of Use</p> -->
         </ion-col>
       </ion-row>
   
@@ -47,7 +56,6 @@
           <ion-button expand="block"> Sign up</ion-button>
         </ion-col>
       </ion-row>
-  
     </div>
     
     <ion-row>
